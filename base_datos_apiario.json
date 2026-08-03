@@ -1,0 +1,26 @@
+{
+  "colmenas": {
+    "1": [
+      {
+        "fecha": "7/7/2026",
+        "actividad": "hoy día vamos a hacer la alimentación"
+      }
+    ],
+    "3": [
+      {
+        "fecha": "6/7/2026",
+        "actividad": "\"Hoy alimenté con jarabe concentrado pesado 2:1 por el frío intenso de julio\""
+      }
+    ],
+    "9": [
+      {
+        "fecha": "6/7/2026",
+        "actividad": "Alimentación con jarabe concentrado pesado (2:1) por bajas reservas de invierno y se detectó escasez extrema de polen."
+      },
+      {
+        "fecha": "6/7/2026",
+        "actividad": "Alimentación con jarabe concentrado pesado (2:1) por bajas reservas de invierno y se detectó escasez extrema de polen."
+      }
+    ]
+  }
+}
