@@ -534,7 +534,7 @@ app.post('/api/consultar', async (req, res) => {
     const info = obtenerDatosFloracion(mes, MAPA_MUNICIPIOS[idMunicipio || "1"]);
     try {
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash',
+            model: 'gemini-2.0-flash',
             contents: [{ role: 'user', parts: [{ text: `Eres experto apícola en Tarija, Bolivia. Info del mes actual: ${info.texto}. Responde de forma clara y directa: ${pregunta}` }] }]
         });
         res.json({ respuesta: response.text });
